@@ -7,7 +7,6 @@ $(document).ready(function(){
       cost = $col.find('.cost').text();
       //grabs img name not actual img
       img = $col.find('img').attr('src');
-
       updateCart([item,cost,img]);
 
       // $('#productList').html('<img src ='+ img+'>');

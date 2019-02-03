@@ -16,6 +16,7 @@
   <!--javascript -->
   <script src ="btns.js"></script>
   <script src ="functions.js"></script>
+  <script src ="shoppingCart.js"></script>
 
   <title>Java - Shopping Cart</title>
 </head>
@@ -52,11 +53,17 @@
   </nav>
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
-          <h1>Northwind</h1>
-          <p>We have the best prices and selection of high quality foods & veverages on the plant! Chekc out our...</p>
-          <hr />
-          <p>For spectacular  international quisine, look no further</p>
-          <button type="button" class="btn btn-outline-primary">Order Now <i class="fas fa-arrow-right"></i></button>
+        <table id="itemTable" class="table  table-hover table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>Item</th>
+                <th>Cost</th>
+                <th>Quantity</th>
+            </tr>
+            </thead>
+            <tbody id="cartTableBody">
+            </tbody>
+        </table>
       </div>
   </div>
 </body>
