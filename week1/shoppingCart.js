@@ -1,6 +1,6 @@
-$(document).ready(function(){
-  shoppingCart.forEach(function(){
-    $('#cartTableBody').append('<tr><td><img src =')
-  });
-//doc.ready()
-});
+// $(document).ready(function(){
+//   shoppingCart.forEach(function(){
+//     $('#cartTableBody').append('<tr><td><img src =')
+//   });
+// //doc.ready()
+// });

@@ -14,9 +14,13 @@
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <!--javascript -->
+  <script src = "java.js"></script>
   <script src ="btns.js"></script>
   <script src ="functions.js"></script>
   <!-- <script src ="shoppingCart.js"></script> -->
+
+  <!-- client css -->
+  <link rel = "stylesheet" href = "client.css">
 
   <title>Java - Product List</title>
 </head>
@@ -55,28 +59,31 @@
   <div class="jumbotron jumbotron-fluid">
       <div class="container" id = "productList">
         <div class="row">
-          <div class = "col-lg">
+          <div class = "col-lg border border-secondary shadow m-3 p-3 mb-5 bg-white rounded">
           <h1>Generic Shirt</h1>
           <p>Here is an average looking shirt</p>
           <img src = "avgShirt.jpg" alt="Average Shirt" height = "500" width = "250">
           <h3 class = "cost">$12.99</h3>
           <h3 class = "item">shirt</h3>
+          Qty <input type = "number" class = "qty" value = "1" min ="1">
           <button type="button" class="btn btn-outline-primary cart">Add to Cart <i class="fas fa-arrow-right"></i></button>
         </div>
-        <div class = "col-lg">
+        <div class = "col-lg border border-secondary shadow m-3 p-3 mb-5 bg-white rounded">
           <h1>Generic Pants</h1>
           <p>Here is an average looking pair of pants</p>
           <img src = "avgPants.jpg" alt="Average Pants" height = "500" width = "250">
           <h3 class = "cost">$27.99</h3>
           <h3 class = "item">Pants</h3>
+          Qty <input type = "number" class = "qty" value = "1" min ="1">
           <button type="button" class="btn btn-outline-primary cart">Add to Cart <i class="fas fa-arrow-right"></i></button>
         </div>
-        <div class = "col-lg">
+        <div class = "col-lg border border-secondary shadow m-3 p-3 mb-5 bg-white rounded">
           <h1>Generic Shoes</h1>
           <p>Here is an average looking pair of shoes</p>
-          <img src = "avgShoes.jpg" alt="Average Shoes" height = "500" width = "250">
+          <img src = "avgShoes.jpg" class = "blah" alt="Average Shoes" height = "500" width = "250">
           <h3 class = "cost">$500.99</h3>
           <h3 class = "item">Shoes</h3>
+          Qty <input type = "number" class = "qty" value = "1" min ="1">
           <button type="button" class="btn btn-outline-primary cart">Add to Cart <i class="fas fa-arrow-right"></i></button>
         </div>
       </div>
