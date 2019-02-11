@@ -5,12 +5,12 @@ $(document).ready(function(){
 
       item = $col.find('.item').text();
       cost = $col.find('.cost').text();
-      //grabs img name not actual img
+      //grabs images name not actual images
       img = $col.find('img').attr('src');
 
-      $('#cartTableBody').append('<tr><td><img src = '+ img +'>');
+      $('#cartTableBody').append('<tr><td><images src = '+ img +'>');
 
-      // updateCart([item,cost,img]);
+      // updateCart([item,cost,images]);
 
   });
 
