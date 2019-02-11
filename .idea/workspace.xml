@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51f24d75-075b-4e12-83c5-65494c0641fc" name="Default Changelist" comment="updated productList.html &amp; downloaded bootstrap">
+      <change afterPath="$PROJECT_DIR$/.idea/distJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updated_productList_html_&amp;_downloaded_bootstrap.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/.idea/week1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/100X100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/100X125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/115X115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/1200X400.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/140X140.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/1920x500.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/200x200.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/300X200.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/32X32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/35X35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/3b536b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/400X200.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/400x400.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/40X40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/600X300.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/64X64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/72X72.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/75X.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/avgPants.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/avgShirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/avgShoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/scenic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/shorts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/skyscraper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/images/yogaPants.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/scss/utilities/_visibility.scss" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/productDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/productList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/scss/_carousel.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/shoppingCart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/week1/scss/_carousel.scss" />
+        <option value="$PROJECT_DIR$/week1/productDetails.html" />
+        <option value="$PROJECT_DIR$/week1/shoppingCart.html" />
+        <option value="$PROJECT_DIR$/week1/productList.html" />
+        <option value="$PROJECT_DIR$/week1/home.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="58" />
+    <option name="y" value="-4" />
+    <option name="width" value="1600" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript2/dart-sass/sass" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week1/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51f24d75-075b-4e12-83c5-65494c0641fc" name="Default Changelist" comment="" />
+      <created>1549924646872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549924646872</updated>
+      <workItem from="1549924648096" duration="2278000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated productList.html &amp; downloaded bootstrap">
+      <created>1549926579145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549926579145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated productList.html &amp; downloaded bootstrap">
+      <created>1549926780354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549926780354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2278000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20769636" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.49973643" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3291536" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5002636" side_tool="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated productList.html &amp; downloaded bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated productList.html &amp; downloaded bootstrap" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/week1/images/35X35.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/scss/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/images/32X32.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/shoppingCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/productDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
