@@ -5,6 +5,9 @@
   Time: 7:09 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="model.Product" %>
+<%@ page import="model.ProductService" %>
+<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -59,10 +62,20 @@
 </nav>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1>Northwind</h1>
-    <p>We have the best prices and selection of high quality foods & veverages on the plant! Chekc out our...</p>
-    <hr/>
-    <p>For spectacular  international quisine, look no further</p>
+    <table>
+      <%
+        ProductService p = new ProductService();
+        for (Product product : p.getProductList()){
+      %>
+      <tr>
+        <td><%= product.getName() %></td>
+        <%--<td><img src = ""</td>--%>
+        <td><img src = <%= product.getImg() %> </td>
+      </tr>
+      <%
+        }
+      %>
+    </table>
     <button type="button" class="btn btn-outline-primary">Order Now <i class="fas fa-arrow-right"></i></button>
   </div>
 </div>
