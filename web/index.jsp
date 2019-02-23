@@ -53,7 +53,7 @@
     <div class="container">
         <div class="row">
             <!-- navbar -->
-            <div class = "col-3">
+            <div class = "col-sm-3">
                 <nav class="navbar flex-column navbar-light navbar-expand-md b4b">
                     <a href="#" class="navbar-brand"><i class="far fa-compass"></i> Java Products</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navSupportedContent"
@@ -74,7 +74,7 @@
                             <li class="nav-item active border-bottom border-secondary">
                                 <a class="nav-link" href="week1/shoppingCart.html">Shopping Cart</a>
                             </li>
-                            <ul class = "navbar-nav mb-2 mt-2">
+                            <ul class = "navbar-nav mb-2 mt-2 stopStacking">
                                 <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-twitter-square"></i></a></li>
                                 <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-facebook-square"></i></a></li>
                                 <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-google-plus-square"></i></a></li>
@@ -87,7 +87,7 @@
                     </div>
                 </nav>
             </div>
-            <div class = "col-9">
+            <div class = "col-sm-9">
                 <div class = "container">
                    <div class = "row text-center">
                        <%ProductService p = new ProductService(); %>
