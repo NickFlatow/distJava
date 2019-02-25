@@ -1,3 +1,5 @@
+<%@ page import="model.ProductService" %>
+<%@ page import="model.Product" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +40,7 @@
     <div class="container">
         <div class="row">
             <!-- navbar -->
-            <div class = "col-sm-3">
+            <div class = "col-lg-3">
                 <nav class="navbar flex-column navbar-light navbar-expand-md b4b">
                     <a href="#" class="navbar-brand"><i class="far fa-compass"></i> Java Products</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navSupportedContent"
@@ -72,7 +74,7 @@
                     </div>
                 </nav>
             </div>
-            <div class = "col-sm-9">
+            <div class = "col-lg-9">
                 <div class = "container">
                     <div class = "row text-center">
                     </div>

@@ -7,48 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0f6bcb-92d7-4fd5-8df4-0a285ef29010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/productDetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/client.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/client.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/week1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/week1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/css/client.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/client.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/100X100.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/100X100.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/100X125.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/100X125.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/115X115.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/115X115.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/1200X400.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/1200X400.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/140X140.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/140X140.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/1920x500.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/1920x500.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/200x200.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/200x200.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/300X200.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/300X200.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/32X32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/32X32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/35X35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/35X35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/3b536b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/3b536b.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/400X200.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/400X200.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/400x400.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/400x400.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/40X40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/40X40.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/600X300.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/600X300.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/64X64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/64X64.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/72X72.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/72X72.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/75X.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/75X.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/avgPants.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/avgPants.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/avgShirt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/avgShirt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/avgShoes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/avgShoes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/redX.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/redX.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/scenic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/scenic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/shirt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/shirt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/shirts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/shirts.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/shorts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/shorts.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/skyscraper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/skyscraper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/images/yogaPants.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/yogaPants.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/productDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/productList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/productList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/week1/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/shoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/productDetails.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,29 +31,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
-              <caret line="110" column="18" lean-forward="true" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+            <state relative-caret-position="-1652">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/productDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/client.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/productList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="682">
               <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,17 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="704">
               <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/productDetails.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -116,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/shoppingCart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="682">
               <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
             </state>
           </provider>
@@ -133,6 +104,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stack</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -141,7 +117,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/controller/Product.java" />
         <option value="$PROJECT_DIR$/src/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/model/ProductService.java" />
         <option value="$PROJECT_DIR$/web/week1/css/client.css" />
         <option value="$PROJECT_DIR$/web/week1/home.html" />
         <option value="$PROJECT_DIR$/web/home.jsp" />
@@ -154,8 +129,10 @@
         <option value="$PROJECT_DIR$/web/test.js" />
         <option value="$PROJECT_DIR$/web/week1/index.jsp" />
         <option value="$PROJECT_DIR$/web/js/btns.js" />
+        <option value="$PROJECT_DIR$/src/model/ProductService.java" />
         <option value="$PROJECT_DIR$/web/css/client.css" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/productDetails.jsp" />
       </list>
     </option>
   </component>
@@ -194,6 +171,12 @@
             <path>
               <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -205,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550981552640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551111809371" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../distJavaExs/theRealDeal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -291,6 +274,9 @@
       <workItem from="1550880783329" duration="3251000" />
       <workItem from="1550899061445" duration="909000" />
       <workItem from="1550947937891" duration="11032000" />
+      <workItem from="1551069563178" duration="89000" />
+      <workItem from="1551106823120" duration="5551000" />
+      <workItem from="1551114041043" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="changed everything. It works!">
       <created>1550720576799</created>
@@ -327,16 +313,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550950752885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed everything">
+      <created>1551069604102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551069604102</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29200000" />
+    <option name="totallyTimeSpent" value="35036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21824974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21024546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,7 +340,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1661442" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19749217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +373,8 @@
     <MESSAGE value="added java" />
     <MESSAGE value="added grid and photo from simple design site" />
     <MESSAGE value="fixed nav bar sm location" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed nav bar sm location" />
+    <MESSAGE value="changed everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed everything" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/images/avgShirt.jpg">
@@ -392,30 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/productDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -437,39 +408,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.js" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/images/shirts.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/shoppingCart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/client.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/btns.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -478,10 +422,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/client.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/shoppingCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="110" column="18" lean-forward="true" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+        <state relative-caret-position="-1652">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/btns.js"></script>
     <script src="js/popper.min.js"></script>
-    <%--<script src="js/bootstrap.js"></script>--%>
+    <script src="js/bootstrap.js"></script>
 
     <%--animate.css Daniel Eden--%>
     <link href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
@@ -40,13 +40,13 @@
 <div class = "container border">
     <!-- Search -->
     <div class = "row">
-        <div class = "col-sm-3">
+        <div class = "col-lg-3">
                 <form class="form-inline ml-auto my-2 my-lg-0">
                     <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
                     <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
                 </form>
         </div>
-        <div class = "col-sm-9 text-right mt-1">
+        <div class = "col-lg-9 text-right mt-1">
             <a href = "#">Check Out</a>
         </div>
     </div>
