@@ -16,7 +16,7 @@
     <script src ="js/popper.min.js"></script>
     <script src ="js/bootstrap.js"></script>
 
-    <title>Java - Product Details</title>
+  <title>Java - Shopping Cart</title>
 </head>
 <body>
   <!-- navbar -->
@@ -29,10 +29,10 @@
           <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "home.html">Home</a>
+                  <a class = "nav-link" href = "index.jsp">Home</a>
                 </li>
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "productDetails.html">Product Details</a>
+                  <a class = "nav-link" href = "productDetails.jsp">Product Details</a>
                 </li>
                 <li class = "nav-item active">
                   <a class = "nav-link" href = "productList.html">Product List</a>
@@ -41,28 +41,6 @@
                   <a class = "nav-link" href = "shoppingCart.html">Shopping Cart</a>
                 </li>
               </li>
-
-                  <!-- <li class="nav-link dropdown">
-                      <a class="nav-link dropdown-toggle" id="productDropwdown" role="button" data-toggle="dropdown" aria-haspopup="true" ariea-expanded="false" href="#"><i class="fas fa-database"></i> Products</a>
-                      <div class="dropdown-menu" aria-labelledby="productDropdown">
-                          <a class="dropdown-item" href="#"><i class="fas fa-holly-berry"></i> Browse Categories</a>
-                          <a class="dropdown-item" href="#"><i class="fab fa-Product-hunt"></i> Product Search</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#"><i class="fas fa-money-bill"></i> Current Discounts</a>
-                      </div>
-                  </li>
-              </li>
-              <li class="nav-item active">
-                  <li class="nav-link dropdown">
-                      <a class="nav-link dropdown-toggle" id="customerDropwdown" role="button" data-toggle="dropdown" aria-haspopup="true" ariea-expanded="false" href="#"><i class="fas fa-users"></i> Customers</a>
-                      <div class="dropdown-menu" aria-labelledby="customerDropdown">
-                          <a class="dropdown-item" href="#"><i class="fas fa-user-circle"></i> Account</a>
-                          <a class="dropdown-item" href="#"><i class="fas fa-registered"></i>Register</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt"></i> Sign in </a>
-                      </div>
-                  </li>
-              </li> -->
           </ul>
           <!-- Search -->
           <form class="form-inline ml-auto my-2 my-lg-0">
@@ -73,11 +51,17 @@
   </nav>
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
-          <h1>Northwind</h1>
-          <p>We have the best prices and selection of high quality foods & veverages on the plant! Chekc out our...</p>
-          <hr />
-          <p>For spectacular  international quisine, look no further</p>
-          <button type="button" class="btn btn-outline-primary">Order Now <i class="fas fa-arrow-right"></i></button>
+        <table id="itemTable" class="table  table-hover table-bordered">
+            <thead class="thead-dark">
+            <tr>
+                <th>Item</th>
+                <th>Cost</th>
+                <th>Quantity</th>
+            </tr>
+            </thead>
+            <tbody id="cartTableBody">
+            </tbody>
+        </table>
       </div>
   </div>
 </body>

@@ -1,52 +1,34 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: robotbath
-  Date: 2/13/19
-  Time: 7:09 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page import="model.Product" %>
-<%@ page import="model.ProductService" %>
-<%--<%@ page import="java.util.List" %>--%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <%--client--%>
-    <link href="css/client.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!--Font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
     <!--javascript -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/btns.js"></script>
-    <script src="js/popper.min.js"></script>
-    <%--<script src="js/bootstrap.js"></script>--%>
+    <script src ="js/btns.js"></script>
+    <script src ="js/jquery-3.2.1.min.js"></script>
+    <script src ="js/popper.min.js"></script>
+    <script src ="js/bootstrap.js"></script>
 
-    <%--animate.css Daniel Eden--%>
-    <link href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
-
-    <title>Java - Home</title>
+    <title>Java - Product Details</title>
 </head>
 <body>
-
 <div class = "container border">
     <!-- Search -->
     <div class = "row">
-        <div class = "col-sm-3">
-                <form class="form-inline ml-auto my-2 my-lg-0">
-                    <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
-                    <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                </form>
+        <div class = "col-3">
+            <form class="form-inline ml-auto my-2 my-lg-0">
+                <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
+                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+            </form>
         </div>
-        <div class = "col-sm-9 text-right mt-1">
+        <div class = "col-9 text-right mt-1">
             <a href = "#">Check Out</a>
         </div>
     </div>
@@ -56,7 +38,7 @@
     <div class="container">
         <div class="row">
             <!-- navbar -->
-            <div class = "col-lg-3">
+            <div class = "col-sm-3">
                 <nav class="navbar flex-column navbar-light navbar-expand-md b4b">
                     <a href="#" class="navbar-brand"><i class="far fa-compass"></i> Java Products</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navSupportedContent"
@@ -90,23 +72,10 @@
                     </div>
                 </nav>
             </div>
-            <%--image div--%>
-            <div class = "col-lg-9">
+            <div class = "col-sm-9">
                 <div class = "container">
-                   <div class = "row text-center">
-                       <%ProductService p = new ProductService(); %>
-                       <% for (Product product : p.getProductList()) { %>
-
-                       <div class = "col-lg-4 featuredImg mb-1">
-                           <img src = "<%= product.getImg() %>" height = "300" width = "300">
-                           <div>
-                            <h6><%= product.getName() %></h6>
-                            <h6>$<%= product.getCost() %></h6>
-                           </div>
-                       </div>
-                       <%--end of for loop--%>
-                       <% } %>
-                   </div>
+                    <div class = "row text-center">
+                    </div>
                 </div>
             </div>
         </div>
@@ -114,4 +83,3 @@
 </div>
 </body>
 </html>
-

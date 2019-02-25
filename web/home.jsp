@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!-- bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!--Font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!-- bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-    <!--javascript -->
-    <script src ="js/btns.js"></script>
-    <script src ="js/jquery-3.2.1.min.js"></script>
-    <script src ="js/popper.min.js"></script>
-    <script src ="js/bootstrap.js"></script>
+  <!--javascript -->
+  <script src ="js/btns.js"></script>
+  <script src ="js/jquery-3.2.1.min.js"></script>
+  <script src ="js/popper.min.js"></script>
+  <script src ="js/bootstrap.js"></script>
 
-  <title>Java - Shopping Cart</title>
+
+  <title>Java - Home</title>
 </head>
 <body>
   <!-- navbar -->
@@ -29,10 +30,10 @@
           <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "home.html">Home</a>
+                  <a class = "nav-link" href = "index.jsp">Home</a>
                 </li>
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "productDetails.html">Product Details</a>
+                  <a class = "nav-link" href = "productDetails.jsp">Product Details</a>
                 </li>
                 <li class = "nav-item active">
                   <a class = "nav-link" href = "productList.html">Product List</a>
@@ -51,17 +52,11 @@
   </nav>
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <table id="itemTable" class="table  table-hover table-bordered">
-            <thead class="thead-dark">
-            <tr>
-                <th>Item</th>
-                <th>Cost</th>
-                <th>Quantity</th>
-            </tr>
-            </thead>
-            <tbody id="cartTableBody">
-            </tbody>
-        </table>
+          <h1>Northwind</h1>
+          <p>We have the best prices and selection of high quality foods & veverages on the plant! Chekc out our...</p>
+          <hr/>
+          <p>For spectacular  international quisine, look no further</p>
+          <button type="button" class="btn btn-outline-primary">Order Now <i class="fas fa-arrow-right"></i></button>
       </div>
   </div>
 </body>
