@@ -36,10 +36,10 @@
                   <a class = "nav-link" href = "productDetails.jsp">Product Details</a>
                 </li>
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "productList.html">Product List</a>
+                  <a class = "nav-link" href = "productList.jsp">Product List</a>
                 </li>
                 <li class = "nav-item active">
-                  <a class = "nav-link" href = "shoppingCart.html">Shopping Cart</a>
+                  <a class = "nav-link" href = "shoppingCart.jsp">Shopping Cart</a>
                 </li>
               </li>
           </ul>

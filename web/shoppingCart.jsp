@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: robotbath
-  Date: 2/13/19
-  Time: 7:09 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page import="model.Product" %>
 <%@ page import="model.ProductService" %>
 <%--<%@ page import="java.util.List" %>--%>
@@ -105,4 +98,3 @@
 </div>
 </body>
 </html>
-

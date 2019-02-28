@@ -51,13 +51,15 @@
         </div>
     </div>
 </div>
+<header class = "jumbotron jumbotron-fluid container bg-white mt-2 pt-2 mb-0 pb-0"><h1>Java.</h1></header>
 
-<div class="jumbotron jumbotron-fluid bg-white">
-    <div class="container">
+
+<div class="jumbotron jumbotron-fluid bg-white mt-0 pt-0">
+    <div class="container-fluid">
         <div class="row">
             <!-- navbar -->
             <div class = "col-lg-3">
-                <nav class="navbar flex-column navbar-light navbar-expand-md b4b">
+                <nav class="navbar flex-column navbar-light navbar-expand-md b4b stack">
                     <a href="#" class="navbar-brand"><i class="far fa-compass"></i> Java Products</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navSupportedContent"
                             aria-controls="navSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,25 +74,26 @@
                                 <a class="nav-link" href="productDetails.jsp">Product Details</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
-                                <a class="nav-link" href="productList.html">Product List</a>
+                                <a class="nav-link" href="productList.jsp">Product List</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
-                                <a class="nav-link" href="shoppingCart.html">Shopping Cart</a>
+                                <a class="nav-link" href="shoppingCart.jsp">Shopping Cart</a>
                             </li>
-                            <ul class = "navbar-nav mb-2 mt-2">
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-twitter-square"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-facebook-square"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-google-plus-square"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-instagram"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-pinterest-square"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-snapchat-square"></i></a></li>
-                                <li class = "nav-item mx-1"><a href = "#"><i class="fab fa-vimeo"></i></a></li>
+                            <ul class = "list-inline  mb-2 mt-2">
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-twitter-square"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-google-plus-square"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-instagram"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-pinterest-square"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-snapchat-square"></i></a></li>
+                                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-vimeo"></i></a></li>
                             </ul>
                         </ul>
                     </div>
                 </nav>
             </div>
             <%--image div--%>
+            <%--<div><h2>Featured Products</h2></div>--%>
             <div class = "col-lg-9">
                 <div class = "container">
                    <div class = "row text-center">
