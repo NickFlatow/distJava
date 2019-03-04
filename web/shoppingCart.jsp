@@ -1,5 +1,7 @@
-<%@ page import="model.Product" %>
-<%@ page import="model.ProductService" %>
+<%@ page import="model.Item" %>
+<%@ page import="model.ItemCatalog" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Iterator" %>
 <%--<%@ page import="java.util.List" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -90,6 +92,21 @@
             <div class = "col-lg-9">
                 <div class = "container">
                     <div class = "row text-center">
+                        <table>
+                            <%
+                                List recs = (List) request.getAttribute("catalog");
+                                Iterator it = recs.iterator();
+                                double total = 0;
+                                while (it.hasNext()) {
+                                    Item item = (Item) it.next();
+                                    out.print("<tr class='purch'><td> " + item.getName() + " </td><td>" +
+                                            String.format("$%3.2f",item.getCost()) + "</td></tr>");
+                                    total+=item.getCost();
+                                }
+                                out.print("<tr class='total' ><td>Total:</td><td>" +
+                                        String.format("$%3.2f",total) + "</td></tr>");
+                            %>
+                        </table>
                     </div>
                 </div>
             </div>

@@ -5,8 +5,10 @@ Date: 2/13/19
 Time: 7:09 PM
 To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="model.Product" %>
-<%@ page import="model.ProductService" %>
+<%@ page import="model.Item" %>
+<%@ page import="model.ItemCatalog" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Iterator" %>
 <%--<%@ page import="java.util.List" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -36,72 +38,28 @@ To change this template use File | Settings | File Templates.
   <title>Java - Home</title>
 </head>
 <body>
+<%
 
-<div class = "container border">
-  <!-- Search -->
-  <div class = "row">
-    <div class = "col-lg-3">
-      <form class="form-inline ml-auto my-2 my-lg-0">
-        <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
-        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-      </form>
-    </div>
-    <div class = "col-lg-9 text-right mt-1">
-      <a href = "#">Check Out</a>
-    </div>
-  </div>
-</div>
-<header class = "jumbotron jumbotron-fluid container bg-white mt-2 pt-2 mb-0 pb-0"><h1>Java.</h1></header>
+  ItemCatalog shop = new ItemCatalog();
 
+  // Always a good idea to trim and/or validate input data
+  List<Item> result = shop.getItemCatalog();
 
-<div class="jumbotron jumbotron-fluid bg-white mt-0 pt-0">
-  <div class="container-fluid">
-    <div class="row">
-      <!-- navbar -->
-      <div class = "col-lg-3">
-        <nav class="navbar flex-column navbar-light navbar-expand-md b4b stack">
-          <a href="#" class="navbar-brand"><i class="far fa-compass"></i> Java Products</a>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navSupportedContent"
-                  aria-controls="navSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navSupportedContent">
-            <ul class="navbar-nav mr-auto flex-column border-secondary">
-              <li class="nav-item active border-bottom border-top border-secondary">
-                <a class="nav-link" href="index.jsp">Home</a>
-              </li>
-              <li class="nav-item active border-bottom border-secondary">
-                <a class="nav-link" href="productDetails.jsp">Product Details</a>
-              </li>
-              <li class="nav-item active border-bottom border-secondary">
-                <a class="nav-link" href="productList.jsp">Product List</a>
-              </li>
-              <li class="nav-item active border-bottom border-secondary">
-                <a class="nav-link" href="shoppingCart.jsp">Shopping Cart</a>
-              </li>
-              <ul class = "list-inline  mb-2 mt-2">
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-twitter-square"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-facebook-square"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-google-plus-square"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-instagram"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-pinterest-square"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-snapchat-square"></i></a></li>
-                <li class = "list-inline-item mx-1"><a href = "#"><i class="fab fa-vimeo"></i></a></li>
-              </ul>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <%--image div--%>
-      <%--<div><h2>Featured Products</h2></div>--%>
-      <div class = "col-lg-9">
-        <div class = "container">
-          <div class = "row text-center">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  out.print(result.get(0).getName());
+//  Item req = (Item) request.getAttribute("catalog");
+
+//  out.print(req.getName());
+//  List recs = (List) request.getAttribute("catalog");
+//  out.print(recs.get(0));
+////  Iterator it = recs.iterator();
+//  out.print("B");
+//  while (it.hasNext()) {
+//    // Notice we're outputting some HTML. Is that a good idea?
+//    // Also, notice we do not cast the object returned by the
+//    // iterator to a String. Why?
+//    Item item = (Item) it.next();
+//    out.print("<tr><td><img src='" + item.getImg() + "' height='100'></td><td>" + item.getName() + "</td><td>$" + item.getCost() + "</td><td>Add to Cart<input type='checkbox' name='cartItem' value=" + item.getProductNumber()+ "></td></tr>");
+//  }
+%>
 </body>
 </html>

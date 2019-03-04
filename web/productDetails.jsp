@@ -5,8 +5,8 @@
   Time: 7:09 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="model.Product" %>
-<%@ page import="model.ProductService" %>
+<%@ page import="model.Item" %>
+<%@ page import="model.ItemCatalog" %>
 <%--<%@ page import="java.util.List" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>

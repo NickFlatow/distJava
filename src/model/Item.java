@@ -1,20 +1,24 @@
 package model;
 
-public class Product {
+public class Item {
 
+    private int productNumber;
     private String name;
     private Double cost;
     private String type;
     private String img;
     private Boolean sale;
 
-    public Product(String name, Double cost, String type, String img, Boolean sale) {
+    public Item(int productNumber, String name, Double cost, String type, String img, Boolean sale) {
+        this.productNumber = productNumber;
         this.name = name;
         this.cost = cost;
         this.type = type;
         this.img = img;
         this.sale = sale;
     }
+
+    public int getProductNumber() { return productNumber; }
 
     public String getName() {
         return name;

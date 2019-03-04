@@ -5,8 +5,10 @@
   Time: 7:09 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="model.Product" %>
-<%@ page import="model.ProductService" %>
+<%@ page import="model.Item" %>
+<%@ page import="model.ItemCatalog" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Iterator" %>
 <%--<%@ page import="java.util.List" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -94,23 +96,44 @@
             </div>
             <%--image div--%>
             <%--<div><h2>Featured Products</h2></div>--%>
-            <div class = "col-lg-9">
-                <div class = "container">
-                   <div class = "row text-center">
-                       <%ProductService p = new ProductService(); %>
-                       <% for (Product product : p.getProductList()) { %>
+            <%--<div class = "col-lg-9">--%>
+                <%--<div class = "container">--%>
+                <%--<form action="cartplace.go">--%>
+                   <%--<div class = "row text-center">--%>
+                       <%--<%ItemCatalog p = new ItemCatalog(); %>--%>
+                       <%--<% for (Item item : p.getItemCatalog()) { %>--%>
 
-                       <div class = "col-lg-4 featuredImg mb-1">
-                           <img src = "<%= product.getImg() %>" height = "300" width = "300">
-                           <div>
-                            <h6><%= product.getName() %></h6>
-                            <h6>$<%= product.getCost() %></h6>
-                           </div>
-                       </div>
-                       <%--end of for loop--%>
-                       <% } %>
-                   </div>
-                </div>
+                       <%--<div class = "col-lg-4 featuredImg mb-1">--%>
+                           <%--<img src = "<%= item.getImg() %>" height = "300" width = "300">--%>
+                           <%--<div>--%>
+                                <%--<h6><%= item.getName() %></h6>--%>
+                                <%--<h6>$<%= item.getCost() %></h6>--%>
+                                   <%--<input type='checkbox' name='cartItem' value= "<% item.getProductNumber();%>">--%>
+                           <%--</div>--%>
+                       <%--</div>--%>
+                       <%--&lt;%&ndash;end of for loop&ndash;%&gt;--%>
+                       <%--<% } %>--%>
+                   <%--</form>--%>
+                       <%--<input type="submit" value="Purchase">--%>
+                   <%--</div>--%>
+                <%--</div>--%>
+            <form action="cartplace.go">
+                <table>
+                    <%--<%--%>
+                        <%--List recs = (List) request.getAttribute("catalog");--%>
+                        <%--Iterator it = recs.iterator();--%>
+                        <%--while (it.hasNext()) {--%>
+                            <%--// Notice we're outputting some HTML. Is that a good idea?--%>
+                            <%--// Also, notice we do not cast the object returned by the--%>
+                            <%--// iterator to a String. Why?--%>
+                            <%--Item item = (Item) it.next();--%>
+                            <%--out.print("<tr><td><img src='" + item.getImg() + "' height='100'></td><td>" + item.getName() + "</td><td>$" + item.getCost() + "</td><td>Add to Cart<input type='checkbox' name='cartItem' value=" + item.getProductNumber()+ "></td></tr>");--%>
+                        <%--}--%>
+                    <%--%>--%>
+
+                </table>
+                <input type="submit" value="Purchase">
+            </form>
             </div>
         </div>
     </div>
