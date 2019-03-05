@@ -45,10 +45,10 @@ To change this template use File | Settings | File Templates.
   // Always a good idea to trim and/or validate input data
   List<Item> result = shop.getItemCatalog();
 
-  out.print(result.get(0).getName());
-//  Item req = (Item) request.getAttribute("catalog");
+//  out.print(result.get(0).getName());
+  Item req = (Item) request.getAttribute("catalog");
 
-//  out.print(req.getName());
+  out.print(req);
 //  List recs = (List) request.getAttribute("catalog");
 //  out.print(recs.get(0));
 ////  Iterator it = recs.iterator();

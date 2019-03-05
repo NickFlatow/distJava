@@ -7,20 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0f6bcb-92d7-4fd5-8df4-0a285ef29010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CartPlaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ItemCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/btns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/shoppingCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/example.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/100X100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/100X125.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/115X115.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/1200X400.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/140X140.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/1920x500.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/200x200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/300X200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/32X32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/35X35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/3b536b.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/400X200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/400x400.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/40X40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/600X300.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/64X64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/72X72.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/75X.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/avgPants.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/avgShirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/avgShoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/redX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/scenic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/shirts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/shorts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/skyscraper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/yogaPants.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/catalog.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/shoppingCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/shoppingCart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/shoppingCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="-470">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="-22">
+              <caret line="40" selection-start-line="40" selection-end-line="62" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -55,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="308">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -64,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="461">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/ItemCatalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="271">
+              <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,19 +116,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Item.java">
+        <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="579">
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="121" selection-start-line="121" selection-end-line="131" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="83" column="33" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="83" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/CartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/controller/Product.java" />
         <option value="$PROJECT_DIR$/web/week1/css/client.css" />
         <option value="$PROJECT_DIR$/web/week1/home.html" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/web/week1/home.jsp" />
         <option value="$PROJECT_DIR$/web/week1/productList.html" />
         <option value="$PROJECT_DIR$/web/week1/shoppingCart.html" />
@@ -151,14 +213,18 @@
         <option value="$PROJECT_DIR$/src/model/Product.java" />
         <option value="$PROJECT_DIR$/src/model/ProductService.java" />
         <option value="$PROJECT_DIR$/web/shoppingCart.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/CartPlaceController.java" />
         <option value="$PROJECT_DIR$/src/controller/CartController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/model/ItemCatalog.java" />
-        <option value="$PROJECT_DIR$/src/controller/CatalogController.java" />
         <option value="$PROJECT_DIR$/web/productList.jsp" />
+        <option value="$PROJECT_DIR$/src/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/controller/CatalogController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/catalog.jsp" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/controller/CartPlaceController.java" />
       </list>
     </option>
   </component>
@@ -170,24 +236,28 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="y" value="24" />
-    <option name="width" value="960" />
-    <option name="height" value="1056" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="distJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
@@ -211,6 +281,12 @@
               <item name="distJava" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,20 +296,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551725323817" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../distJavaExs/DistJava-master/SampleMVCWithCart" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551747122695" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/week1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,6 +345,21 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -329,7 +421,11 @@
       <workItem from="1551136837173" duration="2139000" />
       <workItem from="1551312381101" duration="11703000" />
       <workItem from="1551717583839" duration="4053000" />
-      <workItem from="1551722489001" duration="2796000" />
+      <workItem from="1551722489001" duration="4239000" />
+      <workItem from="1551728689508" duration="1108000" />
+      <workItem from="1551736037837" duration="48000" />
+      <workItem from="1551740481264" duration="1504000" />
+      <workItem from="1551742349033" duration="3757000" />
     </task>
     <task id="LOCAL-00001" summary="changed everything. It works!">
       <created>1550720576799</created>
@@ -387,17 +483,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551312747065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="my computer?">
+      <created>1551725341102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551725341102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65773000" />
+    <option name="totallyTimeSpent" value="73633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21931697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,7 +510,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32810867" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.3260188" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.06896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26541275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +579,8 @@
     <MESSAGE value="fixed nav bar sm location" />
     <MESSAGE value="changed everything" />
     <MESSAGE value="fixed sm nav bar collapse issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed sm nav bar collapse issue" />
+    <MESSAGE value="my computer?" />
+    <option name="LAST_COMMIT_MESSAGE" value="my computer?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,13 +595,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/images/avgShirt.jpg">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/DistJava-master/SampleMVCWithCart/web/images/avgShirt.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/mine/arrowShacket.jpg">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/DistJava-master/SampleMVCWithCart/web/images/mine/arrowShacket.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/test1/web/js/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -506,7 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/test1/web/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
           <folding>
@@ -516,7 +620,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/test.js" />
-    <entry file="file://$PROJECT_DIR$/web/images/shirts.jpg">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/DistJava-master/SampleMVCWithCart/web/images/shirts.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/nav.jsp" />
@@ -528,20 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="106" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/example.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -549,7 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/btns.js">
+    <entry file="file://$PROJECT_DIR$/../distJavaExs/test1/web/js/btns.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
@@ -565,75 +655,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+    <entry file="file://$PROJECT_DIR$/web/example.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="57" />
+        <state relative-caret-position="377">
+          <caret line="18" column="5" selection-start-line="4" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
+    <entry file="file://$PROJECT_DIR$/web/js/btns.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-22">
+          <caret line="40" selection-start-line="40" selection-end-line="62" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/shoppingCart.jsp">
+    <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+        <state relative-caret-position="579">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="121" selection-start-line="121" selection-end-line="131" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ItemCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="718">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,18 +699,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="-470">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="83" column="33" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="83" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ItemCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,7 +17,7 @@ import java.util.List;
 
 @WebServlet(name = "CartServlet")
 public class CartController extends HttpServlet {
-    private String RESULT_PAGE = "shoppingCart.jsp";
+    private String RESULT_PAGE = "cart.jsp";
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }

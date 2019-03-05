@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class CatalogController extends HttpServlet {
-    private String RESULT_PAGE = "web/productList.jsp";
+    private String RESULT_PAGE = "catalog.jsp";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -38,11 +38,12 @@ public class CatalogController extends HttpServlet {
 
         // Always a good idea to trim and/or validate input data
 //        List<Item> result = shop.getItemCatalog();
-        Item result = new Item(0,"Jello",0.0,"none"," ",false);
+//        Item result = new Item(0,"Jello",0.0,"none"," ",false);
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
         // another page.
-        request.setAttribute("catalog", result);
+        String s = "trallala";
+        request.setAttribute("catalog", s);
 
         // This object lets you forward both the request and response
         // objects to a destination page
