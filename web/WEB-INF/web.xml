@@ -36,4 +36,12 @@
         <servlet-name>cart</servlet-name>
         <url-pattern>/cart.go</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>controller.SearchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/search.go</url-pattern>
+    </servlet-mapping>
 </web-app>

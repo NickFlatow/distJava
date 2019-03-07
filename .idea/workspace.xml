@@ -6,51 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd0f6bcb-92d7-4fd5-8df4-0a285ef29010" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/btns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/shoppingCart.js" afterDir="false" />
+    <list default="true" id="fd0f6bcb-92d7-4fd5-8df4-0a285ef29010" name="Default Changelist" comment="servlet mapping!">
+      <change afterPath="$PROJECT_DIR$/src/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ItemCatalog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/example.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/100X100.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/100X125.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/115X115.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/1200X400.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/140X140.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/1920x500.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/200x200.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/300X200.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/32X32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/35X35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/3b536b.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/400X200.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/400x400.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/40X40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/600X300.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/64X64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/72X72.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/75X.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/avgPants.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/avgShirt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/avgShoes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/redX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/scenic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/shirt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/shirts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/shorts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/skyscraper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/yogaPants.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/catalog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/shoppingCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/catalog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/catalog.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,42 +27,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
+        <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-470">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="326">
+              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/productList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="40" selection-start-line="40" selection-end-line="62" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2378#2379#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/ItemCatalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="19">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,37 +61,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
+        <entry file="file://$PROJECT_DIR$/web/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+            <state relative-caret-position="220">
+              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+        <entry file="file://$PROJECT_DIR$/web/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="83" column="33" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="83" selection-end-column="33" />
+            <state relative-caret-position="542">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+        <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="264">
+              <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,13 +91,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
+        <entry file="file://$PROJECT_DIR$/web/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="459">
+              <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="47" column="65" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -173,8 +139,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -215,16 +181,18 @@
         <option value="$PROJECT_DIR$/web/shoppingCart.jsp" />
         <option value="$PROJECT_DIR$/src/controller/CartController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/model/ItemCatalog.java" />
         <option value="$PROJECT_DIR$/web/productList.jsp" />
         <option value="$PROJECT_DIR$/src/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/controller/CatalogController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/cart.jsp" />
-        <option value="$PROJECT_DIR$/web/catalog.jsp" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/src/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/controller/CartPlaceController.java" />
+        <option value="$PROJECT_DIR$/src/controller/CatalogController.java" />
+        <option value="$PROJECT_DIR$/src/model/ItemCatalog.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/catalog.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/web/search.jsp" />
+        <option value="$PROJECT_DIR$/web/cart.jsp" />
       </list>
     </option>
   </component>
@@ -236,67 +204,57 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="960" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="distJava (copy)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava (copy)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="distJava (copy)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava (copy)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="distJava (copy)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava (copy)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="distJava (copy)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava (copy)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
+              <item name="distJava (copy)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distJava (copy)" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distJava" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551747122695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551924106654" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -425,7 +383,13 @@
       <workItem from="1551728689508" duration="1108000" />
       <workItem from="1551736037837" duration="48000" />
       <workItem from="1551740481264" duration="1504000" />
-      <workItem from="1551742349033" duration="3757000" />
+      <workItem from="1551742349033" duration="4592000" />
+      <workItem from="1551758039413" duration="409000" />
+      <workItem from="1551917531642" duration="870000" />
+      <workItem from="1551918752334" duration="75000" />
+      <workItem from="1551918854894" duration="237000" />
+      <workItem from="1551919162647" duration="174000" />
+      <workItem from="1551919428054" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="changed everything. It works!">
       <created>1550720576799</created>
@@ -490,17 +454,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551725341102</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="servlet mapping!">
+      <created>1551747153736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551747153736</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73633000" />
+    <option name="totallyTimeSpent" value="80718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21291356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -510,7 +481,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32810867" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.06896552" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.1922675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26541275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,7 +551,8 @@
     <MESSAGE value="changed everything" />
     <MESSAGE value="fixed sm nav bar collapse issue" />
     <MESSAGE value="my computer?" />
-    <option name="LAST_COMMIT_MESSAGE" value="my computer?" />
+    <MESSAGE value="servlet mapping!" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet mapping!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,75 +628,59 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/example.jsp" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distJava.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="18" column="5" selection-start-line="4" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="352">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/btns.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/js/shoppingCart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="40" selection-start-line="40" selection-end-line="62" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="83" column="33" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="83" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ItemCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="19">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,8 +689,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="319">
+          <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -743,11 +709,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CartPlaceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="47" column="65" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/catalog.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="69" />
         </state>
       </provider>
     </entry>

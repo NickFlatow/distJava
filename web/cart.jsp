@@ -38,7 +38,7 @@
         <div class = "col-lg-3">
             <form class="form-inline ml-auto my-2 my-lg-0">
                 <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
-                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2 " name = "search" type="search" placeholder="Search" aria-label="Search">
             </form>
         </div>
         <div class = "col-lg-9 text-right mt-1">
@@ -66,7 +66,7 @@
                                 <a class="nav-link" href="index.jsp">Home</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
-                                <a class="nav-link" href="catalog.go">Product Details</a>
+                                <a class="nav-link" href="cat.go">Catalog</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
                                 <a class="nav-link" href="productList.go">Product List</a>
@@ -92,19 +92,26 @@
             <div class = "col-lg-9">
                 <div class = "container">
                     <div class = "row text-center">
-                        <table>
+                        <table class = "table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Image</th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                            </thead>
                             <%
                                 List recs = (List) request.getAttribute("catalog");
                                 Iterator it = recs.iterator();
                                 double total = 0;
                                 while (it.hasNext()) {
                                     Item item = (Item) it.next();
-                                    out.print("<tr class='purch'><td> " + item.getName() + " </td><td>" +
-                                            String.format("$%3.2f",item.getCost()) + "</td></tr>");
+                                    out.print("<tr> <td> <img src = " + item.getImg() + " height = '75' width = '75'> </td>" +
+                                            "<td>" + item.getName() + "</td>" +
+                                            "<td>" + String.format("$%3.2f",item.getCost()) + "</td></tr>");
                                     total+=item.getCost();
                                 }
-                                out.print("<tr class='total' ><td>Total:</td><td>" +
-                                        String.format("$%3.2f",total) + "</td></tr>");
+                                out.print("<tr><td></td><td></td><td>" + String.format("$%3.2f",total) + "</td></tr>");
                             %>
                         </table>
                     </div>

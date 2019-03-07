@@ -1,18 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: robotbath
-  Date: 2/13/19
-  Time: 7:09 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page import="model.Item" %>
-<%@ page import="model.ItemCatalog" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Iterator" %>
-<%--<%@ page import="java.util.List" %>--%>
+<%@ page import="model.Item" %><%--
+  Created by IntelliJ IDEA.
+  User: robotbath
+  Date: 3/6/19
+  Time: 7:12 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
@@ -44,9 +39,9 @@
     <!-- Search -->
     <div class = "row">
         <div class = "col-lg-3">
-            <form class="form-inline ml-auto my-2 my-lg-0">
+            <form action = "search.go" class="form-inline ml-auto my-2 my-lg-0">
                 <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
-                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2 " name = "search" value="green" type="search" placeholder="Search" aria-label="Search">
             </form>
         </div>
         <div class = "col-lg-9 text-right mt-1">
@@ -74,7 +69,7 @@
                                 <a class="nav-link" href="index.jsp">Home</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
-                                <a class="nav-link" href="catalog.go">Product Details</a>
+                                <a class="nav-link" href="cat.go">Catalog</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
                                 <a class="nav-link" href="productList.go">Product List</a>
@@ -127,7 +122,5 @@
         </div>
     </div>
 </div>
-</div>
 </body>
 </html>
-

@@ -43,9 +43,9 @@
     <!-- Search -->
     <div class = "row">
         <div class = "col-lg-3">
-            <form class="form-inline ml-auto my-2 my-lg-0">
+            <form action = "search.go" class="form-inline ml-auto my-2 my-lg-0">
                 <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> <span class="sr-only"> Search </span></button>
-                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2 " name="search" type="search" placeholder="Search" aria-label="Search">
             </form>
         </div>
         <div class = "col-lg-9 text-right mt-1">
@@ -73,7 +73,7 @@
                                 <a class="nav-link" href="index.jsp">Home</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
-                                <a class="nav-link" href="catalog.go">Product Details</a>
+                                <a class="nav-link" href="cat.go">Catalog</a>
                             </li>
                             <li class="nav-item active border-bottom border-secondary">
                                 <a class="nav-link" href="productList.go">Product List</a>
@@ -100,17 +100,23 @@
                 <div class = "container">
                     <div class = "row text-center">
                         <%
-                          List recs = (List) request.getAttribute("catalog");
-                          out.print(recs.get(0));
-                          Iterator it = recs.iterator();
-                          out.print("B");
-                          while (it.hasNext()) {
-                            // Notice we're outputting some HTML. Is that a good idea?
-                            // Also, notice we do not cast the object returned by the
-                            // iterator to a String. Why?
-                            Item item = (Item) it.next();
-                            out.print("<tr><td><img src='" + item.getImg() + "' height='100'></td><td>" + item.getName() + "</td><td>$" + item.getCost() + "</td><td>Add to Cart<input type='checkbox' name='cartItem' value=" + item.getProductNumber()+ "></td></tr>");
-                          }
+                            List recs = (List) request.getAttribute("catalog");
+                            Iterator it = recs.iterator();
+                            while (it.hasNext()) {
+                                // Notice we're outputting some HTML. Is that a good idea?
+                                // Also, notice we do not cast the object returned by the
+                                // iterator to a String. Why?
+                                Item item = (Item) it.next();
+
+                                out.print("<div class = 'col-lg-4 featuredImg mb-1'>" +
+                                        "<img src =" + item.getImg() + " height = '300'  width ='300'>" +
+                                        "<div> " +
+                                        "<h6>" + item.getName() + "</h6>" +
+                                        "<h6>$" + item.getCost() + "</h6>" +
+                                        "<input type='checkbox' name='cartItem' value= " + item.getProductNumber() + ">" +
+                                        "</div>" +
+                                        "</div>");
+                            }
                         %>
                     </div>
                 </div>

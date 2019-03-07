@@ -9,10 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.List;
 
-public class CatalogController extends HttpServlet {
-    private String RESULT_PAGE = "catalog.jsp";
+public class SearchController extends HttpServlet {
+    private String RESULT_PAGE = "search.jsp";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -29,18 +31,32 @@ public class CatalogController extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-    throws ServletException, IOException {
+            throws ServletException, IOException {
         response.setContentType("text/html");
 
+//        Enumeration paramNames = request.getParameterNames();
+//        String paramName;
+//        paramName = (String)paramNames.nextElement();
+        String paramValue = request.getParameter("search");
         // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
         ItemCatalog shop = new ItemCatalog();
 
         // Always a good idea to trim and/or validate input data
-        List<Item> result = shop.getItemCatalog();
+        List<Item> catalog = shop.getItemCatalog();
         // Parameters are read only Request object properties, but attributes
         // are read/write. We can use attributes to store data for use on
         // another page.
+
+        List<Item> result = new ArrayList<>();
+
+        for (Item i: catalog){
+            if (i.getType().equals(paramValue)){
+                result.add(i);
+            }
+        }
+
+
         request.setAttribute("catalog", result);
         // This object lets you forward both the request and response
         // objects to a destination page

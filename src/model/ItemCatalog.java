@@ -9,15 +9,15 @@ public class ItemCatalog {
 
     public ItemCatalog() {
         nextProductNumber = 1;
-        itemCatalog.add(new Item(nextProductNumber++,"Arrow Shacket",19.99,"Jacket","images/mine/arrowShacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Arrow Shacket - Indigo",19.99,"Jacket","images/mine/arrowShacket1.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Bomber Jacket",19.99,"Jacket","images/mine/bomberJacker.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Denim Jacket",19.99,"Jacket","images/mine/denimJacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Gulf Jacket",19.99,"Jacket","images/mine/gulfJacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Parka Jacket",19.99,"Jacket","images/mine/parkaJacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Pullover Jacket",19.99,"Jacket","images/mine/pulloverJacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Storm Jacket",19.99,"Jacket","images/mine/Stormjacket.jpg",true));
-        itemCatalog.add(new Item(nextProductNumber++,"Wolf Pack",19.99,"Jacket","images/mine/wolfPack.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Arrow Shacket",19.99,"green","images/mine/arrowShacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Arrow Shacket - Indigo",19.99,"blue","images/mine/arrowShacket1.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Bomber Jacket",19.99,"camo","images/mine/bomberJacker.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Denim Jacket",19.99,"camo","images/mine/denimJacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Gulf Jacket",19.99,"green","images/mine/gulfJacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Parka Jacket",19.99,"black","images/mine/parkaJacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Pullover Jacket",19.99,"blue","images/mine/pulloverJacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Storm Jacket",19.99,"green","images/mine/Stormjacket.jpg",true));
+        itemCatalog.add(new Item(nextProductNumber++,"Wolf Pack",19.99,"black","images/mine/wolfPack.jpg",true));
     }
 
 
