@@ -96,6 +96,8 @@
                             <thead>
                             <tr>
                                 <th scope="col">Image</th>
+                                <th scope="col">Remove</th>
+                                <th scope="col">Qty</th>
                                 <th scope="col">Product</th>
                                 <th scope="col">Price </th>
                             </tr>
@@ -107,11 +109,13 @@
                                 while (it.hasNext()) {
                                     Item item = (Item) it.next();
                                     out.print("<tr> <td> <img src = " + item.getImg() + " height = '75' width = '75'> </td>" +
+                                            "<td><input type='checkbox' name='remove'</td>"+
+                                            "<td><input type='text' name='qty'</td>"+
                                             "<td>" + item.getName() + "</td>" +
                                             "<td>" + String.format("$%3.2f",item.getCost()) + "</td></tr>");
                                     total+=item.getCost();
                                 }
-                                out.print("<tr><td></td><td></td><td>" + String.format("$%3.2f",total) + "</td></tr>");
+                                out.print("<tr><td></td><td></td><td></td><td></td><td>" + String.format("$%3.2f",total) + "</td></tr>");
                             %>
                         </table>
                     </div>

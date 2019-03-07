@@ -34,9 +34,6 @@ public class SearchController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
 
-//        Enumeration paramNames = request.getParameterNames();
-//        String paramName;
-//        paramName = (String)paramNames.nextElement();
         String paramValue = request.getParameter("search");
         // Create a new instance of a model object
         // For some applications, we would not want to create a new one each time.
@@ -55,7 +52,6 @@ public class SearchController extends HttpServlet {
                 result.add(i);
             }
         }
-
 
         request.setAttribute("catalog", result);
         // This object lets you forward both the request and response
