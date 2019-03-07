@@ -97,7 +97,7 @@
                             <tr>
                                 <th scope="col">Image</th>
                                 <th scope="col">Product</th>
-                                <th scope="col">Price</th>
+                                <th scope="col">Price </th>
                             </tr>
                             </thead>
                             <%
