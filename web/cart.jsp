@@ -2,6 +2,8 @@
 <%@ page import="model.ItemCatalog" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Iterator" %>
+<%@ page import="java.net.URLEncoder" %>
+<%@ page import="model.Item" %>
 <%--<%@ page import="java.util.List" %>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -109,7 +111,7 @@
                                 while (it.hasNext()) {
                                     Item item = (Item) it.next();
                                     out.print("<tr> <td> <img src = " + item.getImg() + " height = '75' width = '75'> </td>" +
-                                            "<td><input type='checkbox' name='remove'</td>"+
+                                            "<td><a href = delete.go?product=" + URLEncoder.encode(item.getName(), "UTF-8") + "</a> remove</td>" +
                                             "<td><input type='text' name='qty'</td>"+
                                             "<td>" + item.getName() + "</td>" +
                                             "<td>" + String.format("$%3.2f",item.getCost()) + "</td></tr>");

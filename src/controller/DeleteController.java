@@ -5,6 +5,7 @@ import model.ItemCatalog;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,8 +13,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchController extends HttpServlet {
-    private String RESULT_PAGE = "search.jsp";
+public class DeleteController extends HttpServlet {
+    private String RESULT_PAGE = "cart.jsp";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -33,26 +34,24 @@ public class SearchController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
 
-        String paramValue = request.getParameter("search");
-        // Create a new instance of a model object
-        // For some applications, we would not want to create a new one each time.
-        ItemCatalog shop = new ItemCatalog();
+        //get the product we are removing from the cart
+        String product = request.getParameter("product");
 
-        // Always a good idea to trim and/or validate input data
-        List<Item> catalog = shop.getItemCatalog();
-        // Parameters are read only Request object properties, but attributes
-        // are read/write. We can use attributes to store data for use on
-        // another page.
+        // Get an array of Cookies associated with the this domain
+        Cookie cookie = null;
+        Cookie[] cookies = request.getCookies();
 
-        List<Item> result = new ArrayList<>();
-
-        for (Item i: catalog){
-            if (i.getType().equals(paramValue)){
-                result.add(i);
+        List<Item> items = new ArrayList<>();
+        items.add(new Item(0," ",0.0," "," ",false));
+        if( cookies != null ) {
+            for (int i = 0; i < cookies.length; i++) {
+                cookie = cookies[i];
+                if (cookie.getName().equals("cartItem")) {
+                    items = orderedItems( cookie.getValue(),1 );
+                }
             }
         }
-
-        request.setAttribute("catalog", result);
+        request.setAttribute("catalog", items);
         // This object lets you forward both the request and response
         // objects to a destination page
         RequestDispatcher view =
@@ -66,4 +65,15 @@ public class SearchController extends HttpServlet {
         return "Main Controller";
     }// </editor-fold>
 
+    protected List<Item> orderedItems(String itemsNumbers, int removeNumber) {
+        List<Item> items = new ArrayList<>();
+        ItemCatalog cat = new ItemCatalog();
+        String[] nums = itemsNumbers.split(",");
+        for (int i=0;i<nums.length;i++) {
+            if (i != removeNumber) {
+                items.add(cat.getSingleItem(Integer.parseInt(nums[i])));
+            }
+        }
+        return items;
+    }
 }

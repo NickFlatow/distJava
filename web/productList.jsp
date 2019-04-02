@@ -39,27 +39,8 @@ To change this template use File | Settings | File Templates.
 </head>
 <body>
 <%
-
-  ItemCatalog shop = new ItemCatalog();
-
-  // Always a good idea to trim and/or validate input data
-  List<Item> result = shop.getItemCatalog();
-
-//  out.print(result.get(0).getName());
-  Item req = (Item) request.getAttribute("catalog");
-
-  out.print(req);
-//  List recs = (List) request.getAttribute("catalog");
-//  out.print(recs.get(0));
-////  Iterator it = recs.iterator();
-//  out.print("B");
-//  while (it.hasNext()) {
-//    // Notice we're outputting some HTML. Is that a good idea?
-//    // Also, notice we do not cast the object returned by the
-//    // iterator to a String. Why?
-//    Item item = (Item) it.next();
-//    out.print("<tr><td><img src='" + item.getImg() + "' height='100'></td><td>" + item.getName() + "</td><td>$" + item.getCost() + "</td><td>Add to Cart<input type='checkbox' name='cartItem' value=" + item.getProductNumber()+ "></td></tr>");
-//  }
+//  String i  = (String) request.getAttribute("catalog");
+//  out.print(i);
 %>
 </body>
 </html>
